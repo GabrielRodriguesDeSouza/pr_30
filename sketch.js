@@ -54,6 +54,7 @@ function setup() {
     stones.push(stone);
   }
 
+  
   zombie = createSprite(width / 2, height - 100, 50, 50);
   zombie.addAnimation("lefttoright", zombie1, zombie2, zombie1);
   zombie.addAnimation("righttoleft", zombie3, zombie4, zombie3);
